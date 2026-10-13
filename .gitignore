@@ -1,0 +1,43 @@
+# Node.js and Vite
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Java and Maven
+backend/**/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDE and operating system files
+.DS_Store
+.vscode/
+.idea/
+# Generated files
+node_modules/
+frontend/dist/
+backend/**/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+.idea/
+
+# Exclude local Docker Compose configuration
+/backend/healthtracker-api/compose.yaml
+
+# Temporary editor lock files
+**/.LCK*
